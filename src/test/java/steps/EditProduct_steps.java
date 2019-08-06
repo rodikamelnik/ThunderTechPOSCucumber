@@ -2,11 +2,12 @@ package steps;
 
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
-import org.apache.poi.POIReadOnlyDocument;
+import cucumber.api.java.sl.In;
 import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.Select;
 import pages.LoginPage;
 import pages.ProductsPage;
 import utilities.Driver;
@@ -65,10 +66,8 @@ public class EditProduct_steps {
         products.inputName.clear();
         products.inputName.sendKeys("MacBook Pro");
         Thread.sleep(2000);
-        actions.doubleClick(products.SalesPrice).perform();
-        products.SalesPrice.clear();
-        Thread.sleep(2000);
-        products.SalesPrice.sendKeys("3000");
+        Select select = new Select(products.productType);
+        select.selectByIndex(2);
 
     }
 
@@ -77,6 +76,56 @@ public class EditProduct_steps {
        products.save.click();
     }
 
+
+
+    @When("Manager selects one product and Action button pop up")
+    public void manager_selects_one_product_and_Action_button_pop_up()throws InterruptedException {
+       products.listButton.click();
+       WebElement randomProduct = Driver.getDriver().findElement(By.xpath("(//input[@type='checkbox'])[8]"));
+       randomProduct.click();
+       Thread.sleep(2000);
+       Assert.assertTrue(products.ActionButton.isDisplayed());
+
+    }
+
+    @When("Manager select delete option")
+    public void manager_select_delete_option() throws InterruptedException{
+        products.ActionButton.click();
+        Thread.sleep(2000);
+        WebElement deleteOption = Driver.getDriver().findElement(By.xpath("(//a[@data-section='other'])[4]"));
+        Thread.sleep(2000);
+        deleteOption.click();
+
+    }
+
+    @Then("Confirmation window pop up")
+    public void confirmation_window_pop_up() {
+        WebElement confirmationWindow = Driver.getDriver().findElement(By.xpath("//div[@class='modal-content']"));
+        Assert.assertTrue(confirmationWindow.isDisplayed());
+
+
+    }
+
+    @When("Manager clicks Ok")
+    public void manager_clicks_Ok()throws InterruptedException {
+        WebElement okButton = Driver.getDriver().findElement(By.xpath("//button[@class='btn btn-sm btn-primary']"));
+        Thread.sleep(2000);
+        okButton.click();
+
+    }
+
+    @When("Error message pop up and manager clicks Ok")
+    public void error_message_pop_up_and_manager_clicks_Ok() throws InterruptedException{
+        WebElement errorWindow = Driver.getDriver().findElement(By.xpath("//div[@class='modal-content']"));
+        WebElement okErrorButton = Driver.getDriver().findElement(By.xpath("(//button[@type='button'])[20]"));
+        Thread.sleep(2000);
+        okErrorButton.click();
+    }
+
+    @Then("List of POS appear")
+    public void list_of_POS_appear() {
+
+    }
 
 
 }
