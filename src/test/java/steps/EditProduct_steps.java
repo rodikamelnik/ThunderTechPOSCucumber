@@ -21,41 +21,41 @@ public class EditProduct_steps {
     Actions actions = new Actions(Driver.getDriver());
 
 
-    @When("User is on Odoo page")
-    public void user_is_on_Odoo_page()throws InterruptedException {
+    @When("Manager is on Odoo page")
+    public void manager_is_on_Odoo_page()throws InterruptedException {
         login.loginPage();
         login.login("POSManager7");
     }
 
-    @When("User clicks on Point of Sale functionality")
-    public void user_clicks_on_Point_of_Sale_functionality()throws InterruptedException {
+    @When("Manager clicks on Point of Sale functionality")
+    public void manager_clicks_on_Point_of_Sale_functionality()throws InterruptedException {
         login.navigateToPOS();
         Thread.sleep(2000);
 
     }
 
-    @Then("User is on Point of Sale page")
-    public void user_is_on_Point_of_Sale_page(){
+    @Then("Manager is on Point of Sale page")
+    public void manager_is_on_Point_of_Sale_page(){
         Assert.assertTrue( Driver.getDriver().getCurrentUrl().contains("http://54.148.96.210/web?#view_type=kanban&model=pos.config&menu_id=500&action=677"));
 
     }
 
-    @When("User clicks on Products tab")
-    public void user_clicks_on_Products_tab() {
+    @When("Manager clicks on Products tab")
+    public void manager_clicks_on_Products_tab() {
         WebElement productsModule = Driver.getDriver().findElement(By.xpath("(//a[@data-menu-xmlid='point_of_sale.menu_pos_products'])"));
         productsModule.click();
     }
 
-    @Then("User should see all products")
-    public void user_should_see_all_products() {
+    @Then("Manager should see all products")
+    public void manager_should_see_all_products() {
         List<WebElement> allProducts = Driver.getDriver().findElements(By.className("o_kanban_view o_kanban_ungrouped"));
         for(WebElement element: allProducts){
             Assert.assertTrue(element.isDisplayed());
         }
     }
 
-    @When("User clicks on any product")
-    public void user_clicks_on_any_product() {
+    @When("Manager clicks on any product")
+    public void manager_clicks_on_any_product() {
         products.product.click();
     }
 
@@ -72,8 +72,8 @@ public class EditProduct_steps {
 
     }
 
-    @Then("User is able to save changes")
-    public void user_is_able_to_save_changes() {
+    @Then("Manager is able to save changes")
+    public void manager_is_able_to_save_changes() {
        products.save.click();
     }
 
