@@ -14,7 +14,7 @@ public class ProductsPage {
     @FindBy(xpath = "//button[contains(text(), 'Create')]")
     public WebElement create;
 
-    @FindBy(xpath = "//input[@id='o_field_input_502']")
+    @FindBy(xpath = "(//input[@placeholder='Product Name'])")
     public WebElement inputName;
 
     @FindBy(xpath = "//div[@class='o_cp_left']//button[contains(text(), 'Save')]")
@@ -47,8 +47,15 @@ public class ProductsPage {
     @FindBy(xpath = "//button[@class='btn btn-primary btn-sm o_form_button_edit']")
     public WebElement edit;
 
-    @FindBy(xpath = "(//input[@id='o_field_input_511'])")
+    @FindBy(xpath = "//div[@name='list_price']")
     public WebElement SalesPrice;
 
+    @FindBy(xpath = "//button[@aria-label='list']")
+    public WebElement listButton;
 
+    @FindBy(xpath = "(//button[@class='o_dropdown_toggler_btn btn btn-sm dropdown-toggle'])[2]")
+    public WebElement ActionButton;
+
+    @FindBy(xpath = "(//select[@class='o_input o_field_widget o_required_modifier'])[1]")
+    public WebElement productType;
 }
