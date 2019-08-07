@@ -22,6 +22,17 @@ Feature: Edit certain product as a manager
     When Manager clicks Ok
     And Error message pop up and manager clicks Ok
     Then List of POS appear
+@albina
+  Scenario: Uploading document to POS category as a manager
 
+  When Manager 2 is on Odoo page
+  And Manager clicks on Point of Sale functionality
+  Then Manager is on Point of Sale page
+  When Manager clicks on Products from Configuration tab
+  Then Manager clicks POS Categories tab
+  And Manager clicks on import button
+  When Manager clicks on Load File button
+  Then Manager chooses a file from the documents
+  And Manager sees uploaded document on the page
 
 
