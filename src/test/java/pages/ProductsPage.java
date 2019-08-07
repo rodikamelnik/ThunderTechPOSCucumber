@@ -12,9 +12,12 @@ public class ProductsPage {
         PageFactory.initElements(Driver.getDriver(), this);
     }
 
+    // by clicking create Button a new window will pop up
     @FindBy(xpath = "//button[contains(text(), 'Create')]")
-    public WebElement create;
+    public WebElement createButton;
 
+
+    // name of new product
     @FindBy(xpath = "(//input[@placeholder='Product Name'])")
     public WebElement inputName;
 
@@ -48,16 +51,9 @@ public class ProductsPage {
     @FindBy(xpath = "//button[@class='btn btn-primary btn-sm o_form_button_edit']")
     public WebElement edit;
 
-    @FindBy(xpath = "//div[@name='list_price']")
-    public WebElement SalesPrice;
 
-    //This button arranges all products in a list
-    @FindBy(xpath = "//button[@aria-label='list']")
-    public WebElement listButton;
 
-    // Actin Button, pop ups after Manager selects one product from list
-    @FindBy(xpath = "(//button[@class='o_dropdown_toggler_btn btn btn-sm dropdown-toggle'])[2]")
-    public WebElement ActionButton;
+
 
     @FindBy(xpath = "(//select[@class='o_input o_field_widget o_required_modifier'])[1]")
     public WebElement productType;
@@ -70,4 +66,9 @@ public class ProductsPage {
     //WebElement Delete option from Action Button
     @FindBy(xpath = "(//a[@data-section='other'])[4]")
     public WebElement deleteOption;
+
+
+
+
+
 }
