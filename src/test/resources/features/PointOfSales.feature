@@ -23,5 +23,17 @@ Feature: Edit certain product as a manager
     And Error message pop up and manager clicks Ok
     Then List of POS appear
 
+  @cholponS
+  Scenario:Ability to take an action on certain "Order References"
+    Given User is on Odoo page
+    When User provides username and password
+    And User clicks on  PoS Functionality
+    When User clicks on Orders module
+    And User clicks on Order Ref button
+    Then User should see Action button
+
+
+
+
 
 
