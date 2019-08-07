@@ -1,4 +1,3 @@
-git config merge.conflictstyle diff3
 $(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("src/test/resources/features/PointOfSales.feature");
 formatter.feature({
   "name": "Point of Sales functionality",

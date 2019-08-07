@@ -24,6 +24,7 @@ Feature: Point of Sales functionality
     And Error message pop up and manager clicks Ok
     Then List of POS appear
 
+<<<<<<< HEAD
   @rodika3
   Scenario: "Create" functionality for Product tab
     When Manager is on Odoo page
@@ -35,6 +36,19 @@ Feature: Point of Sales functionality
     When Manager fills out empty fielsd and upload picture
     And Manager clicks on save button
     Then Manager can see confirmation message
+=======
+  @cholponS
+  Scenario:Ability to take an action on certain "Order References"
+    Given User is on Odoo page
+    When User provides username and password
+    And User clicks on  PoS Functionality
+    When User clicks on Orders module
+    And User clicks on Order Ref button
+    Then User should see Action button
+
+
+
+>>>>>>> dc2b5d40cd28c5c5605df894744f47a46c9e1a80
 
 
 
