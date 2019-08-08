@@ -26,7 +26,6 @@ Feature: Point of Sales functionality
 @albina
   Scenario: Uploading document to POS category as a manager
 
-<<<<<<< HEAD
   When Manager 2 is on Odoo page
   And Manager clicks on Point of Sale functionality
   Then Manager is on Point of Sale page
@@ -36,8 +35,8 @@ Feature: Point of Sales functionality
   When Manager clicks on Load File button
   Then Manager chooses a file from the documents
   And Manager sees uploaded document on the page
-=======
-<<<<<<< HEAD
+
+
   @rodika3
   Scenario: "Create" functionality for Product tab
     When Manager is on Odoo page
@@ -46,10 +45,10 @@ Feature: Point of Sales functionality
     When Manager clicks on Products tab
     And Manager clicks on Create button
     Then new window for create product pops up
-    When Manager fills out empty fielsd and upload picture
+    When Manager fills out empty field and uploads picture
     And Manager clicks on save button
     Then Manager can see confirmation message
-=======
+
   @cholponS
   Scenario:Ability to take an action on certain "Order References"
     Given User is on Odoo page
@@ -61,8 +60,5 @@ Feature: Point of Sales functionality
 
 
 
->>>>>>> dc2b5d40cd28c5c5605df894744f47a46c9e1a80
-
->>>>>>> c84257d6735ea38809a818e3d160d1b71cd1132a
 
 

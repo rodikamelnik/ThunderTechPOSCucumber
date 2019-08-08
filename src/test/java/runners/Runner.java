@@ -10,11 +10,7 @@ import org.junit.runner.RunWith;
         plugin = "html:target/cucumber",
         features = "src/test/resources/features",
         glue = "steps",
-<<<<<<< HEAD
-        tags = "@albina",
-=======
-        tags = "@cholponS",
->>>>>>> c84257d6735ea38809a818e3d160d1b71cd1132a
+        tags = "@rodika3",
         dryRun = false
 )
 

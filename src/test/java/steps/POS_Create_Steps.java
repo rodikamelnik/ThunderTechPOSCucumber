@@ -24,14 +24,12 @@ public class POS_Create_Steps {
     Actions actions = new Actions(Driver.getDriver());
     SalesDetailsPage salePage = new SalesDetailsPage();
 
-
     //@rodika3(TT-93)
-   // Manager creates a new product
+    // Manager creates a new product
     @When("Manager clicks on Create button")
     public void manager_clicks_on_Create_button() {
         productsPage.createButton.click();
     }
-
     // make sure the window for create product is displayed
     @Then("new window for create product pops up")
     public void new_window_for_create_product_pops_up() {
@@ -39,9 +37,8 @@ public class POS_Create_Steps {
         Assert.assertTrue(createWindow.isDisplayed());
     }
 
-
     //Manager insert name for new product and uploade a picture
-    @When("Manager fills out empty fielsd and upload picture")
+    @When("Manager fills out empty field and uploads picture")
     public void manager_fills_out_empty_fielsd_and_upload_picture() throws InterruptedException {
         productsPage.inputName.sendKeys("apple Watch");
         //String filePath = Config.getProperty("imagePath");
@@ -50,14 +47,12 @@ public class POS_Create_Steps {
         productsPage.chooseFileInput.sendKeys(absolutePath);
         Thread.sleep(3000);
         Assert.assertTrue(!productsPage.image.getAttribute("src").equals("/web/static/src/img/placeholder.png"));
-
     }
 
     //Manager clicks on save button to save new created product
     @When("Manager clicks on save button")
     public void manager_clicks_on_save_button() {
         productsPage.save.click();
-
     }
 
     // Manager can see the confirmation message down of the page
@@ -65,9 +60,4 @@ public class POS_Create_Steps {
     public void manager_can_see_confirmation_message() {
         Assert.assertTrue(productsPage.message.getText().contains("created"));
     }
-
-
-
-
-
 }
