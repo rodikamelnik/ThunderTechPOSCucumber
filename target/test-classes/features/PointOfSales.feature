@@ -37,6 +37,10 @@ Feature: Point of Sales functionality
   And Manager sees uploaded document on the page
 
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> ded44736f9630f81712aace135e0d946b0b99e04
   @rodika3
   Scenario: "Create" functionality for Product tab
     When Manager is on Odoo page
@@ -60,5 +64,10 @@ Feature: Point of Sales functionality
 
 
 
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> ded44736f9630f81712aace135e0d946b0b99e04
 
 

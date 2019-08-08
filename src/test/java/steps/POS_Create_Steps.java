@@ -25,11 +25,20 @@ public class POS_Create_Steps {
     SalesDetailsPage salePage = new SalesDetailsPage();
 
     //@rodika3(TT-93)
+<<<<<<< HEAD
     // Manager creates a new product
     @When("Manager clicks on Create button")
     public void manager_clicks_on_Create_button() {
         productsPage.createButton.click();
     }
+=======
+   // Manager creates a new product
+//    @When("Manager clicks on Create button")
+//    public void manager_clicks_on_Create_button() {
+//        productsPage.createButton.click();
+//    }
+
+>>>>>>> ded44736f9630f81712aace135e0d946b0b99e04
     // make sure the window for create product is displayed
     @Then("new window for create product pops up")
     public void new_window_for_create_product_pops_up() {
