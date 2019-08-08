@@ -19,26 +19,19 @@ import java.util.List;
 public class POS_Create_Steps {
 
 
-    LoginPage login = new LoginPage();
+
     ProductsPage productsPage = new ProductsPage();
-    Actions actions = new Actions(Driver.getDriver());
-    SalesDetailsPage salePage = new SalesDetailsPage();
+
 
     //@rodika3(TT-93)
-<<<<<<< HEAD
     // Manager creates a new product
     @When("Manager clicks on Create button")
-    public void manager_clicks_on_Create_button() {
+    public void manager_clicks_on_Create_button()
+    {
         productsPage.createButton.click();
     }
-=======
-   // Manager creates a new product
-//    @When("Manager clicks on Create button")
-//    public void manager_clicks_on_Create_button() {
-//        productsPage.createButton.click();
-//    }
 
->>>>>>> ded44736f9630f81712aace135e0d946b0b99e04
+
     // make sure the window for create product is displayed
     @Then("new window for create product pops up")
     public void new_window_for_create_product_pops_up() {
@@ -61,8 +54,10 @@ public class POS_Create_Steps {
     //Manager clicks on save button to save new created product
     @When("Manager clicks on save button")
     public void manager_clicks_on_save_button() {
+
         productsPage.save.click();
     }
+
 
     // Manager can see the confirmation message down of the page
     @Then("Manager can see confirmation message")

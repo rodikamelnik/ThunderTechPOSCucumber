@@ -8,6 +8,7 @@ import utilities.Driver;
 public class SalesDetailsPage {
 
     public SalesDetailsPage(){
+
         PageFactory.initElements(Driver.getDriver(), this);
     }
 

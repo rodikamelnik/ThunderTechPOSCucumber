@@ -8,11 +8,11 @@ import utilities.Driver;
 
 public class POSCategoriesPage {
 
-    WebDriver driver;
+
 
     public POSCategoriesPage(){
-        driver= Driver.getDriver();
-        PageFactory.initElements(driver, this);
+
+        PageFactory.initElements( Driver.getDriver(), this);
     }
 
     @FindBy(xpath = "(//a[@data-menu-xmlid='point_of_sale.pos_menu_products_configuration'])/span")

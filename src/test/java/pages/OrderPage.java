@@ -9,14 +9,14 @@ import utilities.Driver;
 public class OrderPage {
     // TT-126 Cholpon Shabolotova
 
-    WebDriver driver;
+
 
     public OrderPage(){
-        driver= Driver.getDriver();
-        PageFactory.initElements(driver, this);
+        PageFactory.initElements(Driver.getDriver(), this);
     }
+
     @FindBy(xpath = "(//a[@data-menu-xmlid='point_of_sale.menu_point_ofsale'])/span[1]")
-    public static WebElement orders;
+    public  WebElement orders;
 
     @FindBy(xpath = "//li[.='Orders']")
     public WebElement orderText;
@@ -28,6 +28,7 @@ public class OrderPage {
     public WebElement actionModule;
 
     public void orderModule(){
+
         orders.click();
     }
 }

@@ -9,6 +9,7 @@ import utilities.Driver;
 public class ProductsPage {
 
     public ProductsPage(){
+
         PageFactory.initElements(Driver.getDriver(), this);
     }
 
