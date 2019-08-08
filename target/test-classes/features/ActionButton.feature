@@ -8,6 +8,4 @@ Feature: Check Action Button as a manager
     When Manager clicks on PriceList tab under catalog
     Then Manager should see list of products
     When Manager clicks on one or multiple product
-    Then Manager shoul able to see "Export","Archive","Unarchive","Delete"
-    When Manager clicks on Action Button
-    Then Manager should able to do Actions with "Export","Archive","Unarchive","Delete"
+    Then Manager shoul able to see Export,Archive,Unarchive,Delete
