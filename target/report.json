@@ -6,7 +6,7 @@
         "before": [
           {
             "result": {
-              "duration": 4301102,
+              "duration": 3886081,
               "status": "passed"
             },
             "match": {
@@ -21,7 +21,7 @@
         "after": [
           {
             "result": {
-              "duration": 191083620,
+              "duration": 201921521,
               "status": "passed"
             },
             "match": {
@@ -34,7 +34,7 @@
         "steps": [
           {
             "result": {
-              "duration": 12223704083,
+              "duration": 16702270018,
               "status": "passed"
             },
             "line": 6,
@@ -46,7 +46,7 @@
           },
           {
             "result": {
-              "duration": 2093172624,
+              "duration": 2083354519,
               "status": "passed"
             },
             "line": 7,
@@ -58,7 +58,7 @@
           },
           {
             "result": {
-              "duration": 12142640,
+              "duration": 9462973,
               "status": "passed"
             },
             "line": 8,
@@ -70,7 +70,7 @@
           },
           {
             "result": {
-              "duration": 74197635,
+              "duration": 72206985,
               "status": "passed"
             },
             "line": 9,
@@ -82,7 +82,7 @@
           },
           {
             "result": {
-              "duration": 10028721015,
+              "duration": 10020243559,
               "status": "passed"
             },
             "line": 10,
@@ -94,7 +94,7 @@
           },
           {
             "result": {
-              "duration": 79707667,
+              "duration": 75022665,
               "status": "passed"
             },
             "line": 11,
@@ -106,7 +106,7 @@
           },
           {
             "result": {
-              "duration": 3950068488,
+              "duration": 3832665002,
               "status": "passed"
             },
             "line": 12,
@@ -118,7 +118,7 @@
           },
           {
             "result": {
-              "duration": 56948773,
+              "duration": 58328081,
               "status": "passed"
             },
             "line": 13,
@@ -142,7 +142,7 @@
         "before": [
           {
             "result": {
-              "duration": 138749,
+              "duration": 356551,
               "status": "passed"
             },
             "match": {
@@ -157,7 +157,7 @@
         "after": [
           {
             "result": {
-              "duration": 192837679,
+              "duration": 191829203,
               "status": "passed"
             },
             "match": {
@@ -170,7 +170,7 @@
         "steps": [
           {
             "result": {
-              "duration": 9045052052,
+              "duration": 9912880578,
               "status": "passed"
             },
             "line": 17,
@@ -182,7 +182,7 @@
           },
           {
             "result": {
-              "duration": 2095428237,
+              "duration": 2083245156,
               "status": "passed"
             },
             "line": 18,
@@ -194,7 +194,7 @@
           },
           {
             "result": {
-              "duration": 6625849,
+              "duration": 7257641,
               "status": "passed"
             },
             "line": 19,
@@ -206,7 +206,7 @@
           },
           {
             "result": {
-              "duration": 2404970963,
+              "duration": 2350464913,
               "status": "passed"
             },
             "line": 20,
@@ -218,7 +218,7 @@
           },
           {
             "result": {
-              "duration": 2146273462,
+              "duration": 2125661863,
               "status": "passed"
             },
             "line": 21,
@@ -230,7 +230,7 @@
           },
           {
             "result": {
-              "duration": 159964448,
+              "duration": 148075188,
               "status": "passed"
             },
             "line": 22,
@@ -242,7 +242,7 @@
           },
           {
             "result": {
-              "duration": 2084555481,
+              "duration": 2070861419,
               "status": "passed"
             },
             "line": 23,
@@ -254,7 +254,7 @@
           },
           {
             "result": {
-              "duration": 2081011630,
+              "duration": 2076270703,
               "status": "passed"
             },
             "line": 24,
@@ -266,7 +266,7 @@
           },
           {
             "result": {
-              "duration": 70606410,
+              "duration": 33441959,
               "status": "passed"
             },
             "line": 25,
@@ -290,7 +290,7 @@
         "before": [
           {
             "result": {
-              "duration": 493711,
+              "duration": 1454158,
               "status": "passed"
             },
             "match": {
@@ -305,7 +305,7 @@
         "after": [
           {
             "result": {
-              "duration": 191214350,
+              "duration": 176898640,
               "status": "passed"
             },
             "match": {
@@ -318,7 +318,7 @@
         "steps": [
           {
             "result": {
-              "duration": 8961169463,
+              "duration": 7709992960,
               "status": "passed"
             },
             "line": 30,
@@ -336,7 +336,7 @@
           },
           {
             "result": {
-              "duration": 2099524863,
+              "duration": 2094383354,
               "status": "passed"
             },
             "line": 31,
@@ -348,7 +348,7 @@
           },
           {
             "result": {
-              "duration": 8720444,
+              "duration": 6907804,
               "status": "passed"
             },
             "line": 32,
@@ -360,7 +360,7 @@
           },
           {
             "result": {
-              "duration": 3091330526,
+              "duration": 3089239338,
               "status": "passed"
             },
             "line": 33,
@@ -372,7 +372,7 @@
           },
           {
             "result": {
-              "duration": 2107902034,
+              "duration": 2089560211,
               "status": "passed"
             },
             "line": 34,
@@ -384,7 +384,7 @@
           },
           {
             "result": {
-              "duration": 2104171599,
+              "duration": 2092345655,
               "status": "passed"
             },
             "line": 35,
@@ -396,7 +396,7 @@
           },
           {
             "result": {
-              "duration": 15028956,
+              "duration": 15060701,
               "status": "passed"
             },
             "line": 36,
@@ -408,7 +408,7 @@
           },
           {
             "result": {
-              "duration": 2034167926,
+              "duration": 2037360172,
               "status": "passed"
             },
             "line": 37,
@@ -420,7 +420,7 @@
           },
           {
             "result": {
-              "duration": 29120182,
+              "duration": 30791511,
               "status": "passed"
             },
             "line": 38,
@@ -444,7 +444,7 @@
         "before": [
           {
             "result": {
-              "duration": 451883,
+              "duration": 380255,
               "status": "passed"
             },
             "match": {
@@ -459,7 +459,7 @@
         "after": [
           {
             "result": {
-              "duration": 181053241,
+              "duration": 273377995,
               "status": "passed"
             },
             "match": {
@@ -472,7 +472,7 @@
         "steps": [
           {
             "result": {
-              "duration": 10129909433,
+              "duration": 7972126347,
               "status": "passed"
             },
             "line": 43,
@@ -484,7 +484,7 @@
           },
           {
             "result": {
-              "duration": 2101800656,
+              "duration": 2083374845,
               "status": "passed"
             },
             "line": 44,
@@ -496,7 +496,7 @@
           },
           {
             "result": {
-              "duration": 8855339,
+              "duration": 5338047,
               "status": "passed"
             },
             "line": 45,
@@ -508,7 +508,7 @@
           },
           {
             "result": {
-              "duration": 99521539,
+              "duration": 77377225,
               "status": "passed"
             },
             "line": 46,
@@ -520,7 +520,7 @@
           },
           {
             "result": {
-              "duration": 1869856956,
+              "duration": 1952426013,
               "status": "passed"
             },
             "line": 47,
@@ -532,7 +532,7 @@
           },
           {
             "result": {
-              "duration": 1579221249,
+              "duration": 1398284870,
               "status": "passed"
             },
             "line": 48,
@@ -544,7 +544,7 @@
           },
           {
             "result": {
-              "duration": 3371740114,
+              "duration": 3347325253,
               "status": "passed"
             },
             "line": 49,
@@ -556,7 +556,7 @@
           },
           {
             "result": {
-              "duration": 93262727,
+              "duration": 79747605,
               "status": "passed"
             },
             "line": 50,
@@ -568,7 +568,7 @@
           },
           {
             "result": {
-              "duration": 1028127656,
+              "duration": 1007241649,
               "status": "passed"
             },
             "line": 51,
@@ -592,7 +592,7 @@
         "before": [
           {
             "result": {
-              "duration": 81730,
+              "duration": 525269,
               "status": "passed"
             },
             "match": {
@@ -607,7 +607,7 @@
         "after": [
           {
             "result": {
-              "duration": 176404924,
+              "duration": 179394069,
               "status": "passed"
             },
             "match": {
@@ -620,7 +620,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3704943965,
+              "duration": 3232828935,
               "status": "passed"
             },
             "line": 55,
@@ -632,7 +632,7 @@
           },
           {
             "result": {
-              "duration": 4764535040,
+              "duration": 4572861030,
               "status": "passed"
             },
             "line": 56,
@@ -644,7 +644,7 @@
           },
           {
             "result": {
-              "duration": 93960786,
+              "duration": 73482223,
               "status": "passed"
             },
             "line": 57,
@@ -656,7 +656,7 @@
           },
           {
             "result": {
-              "duration": 2314716465,
+              "duration": 2637730295,
               "status": "passed"
             },
             "line": 58,
@@ -668,7 +668,7 @@
           },
           {
             "result": {
-              "duration": 90731943,
+              "duration": 88994973,
               "status": "passed"
             },
             "line": 59,
@@ -680,7 +680,7 @@
           },
           {
             "result": {
-              "duration": 47659634,
+              "duration": 39020086,
               "status": "passed"
             },
             "line": 60,
@@ -697,6 +697,342 @@
           },
           {
             "name": "@cholponS"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 225216,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setup()"
+            }
+          }
+        ],
+        "line": 71,
+        "name": "\"Search\" functionality Result Verification",
+        "description": "",
+        "id": "point-of-sales-functionality;\"search\"-functionality-result-verification;test-data-for-search-functionality;2",
+        "after": [
+          {
+            "result": {
+              "duration": 238284618,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7891274671,
+              "status": "passed"
+            },
+            "line": 64,
+            "name": "The Manager is on Odoo page",
+            "match": {
+              "location": "Search_Steps.the_Manager_is_on_Odoo_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3076913326,
+              "status": "passed"
+            },
+            "line": 65,
+            "name": "Manager clicks on Point Of Sale tab",
+            "match": {
+              "location": "Search_Steps.manager_clicks_on_Point_Of_Sale_tab()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6769132,
+              "status": "passed"
+            },
+            "line": 66,
+            "name": "Manager is on Point of Sale tab page",
+            "match": {
+              "location": "Search_Steps.manager_is_on_Point_of_Sale_tab_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 247834510,
+              "status": "passed"
+            },
+            "line": 67,
+            "name": "Manager types \"Phone Elektrik\" in the search box and searches for it",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Phone Elektrik\"",
+                  "offset": 14
+                }
+              ],
+              "location": "Search_Steps.manager_types_in_the_search_box_and_searches_for_it(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 30728403,
+              "status": "passed"
+            },
+            "line": 68,
+            "name": "Manager sees \"Phone Elektrik\" in the updated version of the page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Phone Elektrik\"",
+                  "offset": 13
+                }
+              ],
+              "location": "Search_Steps.manager_sees_in_the_updated_version_of_the_page(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@sapar"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 135792,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setup()"
+            }
+          }
+        ],
+        "line": 72,
+        "name": "\"Search\" functionality Result Verification",
+        "description": "",
+        "id": "point-of-sales-functionality;\"search\"-functionality-result-verification;test-data-for-search-functionality;3",
+        "after": [
+          {
+            "result": {
+              "duration": 251777195,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8924802945,
+              "status": "passed"
+            },
+            "line": 64,
+            "name": "The Manager is on Odoo page",
+            "match": {
+              "location": "Search_Steps.the_Manager_is_on_Odoo_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3078200066,
+              "status": "passed"
+            },
+            "line": 65,
+            "name": "Manager clicks on Point Of Sale tab",
+            "match": {
+              "location": "Search_Steps.manager_clicks_on_Point_Of_Sale_tab()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6566769,
+              "status": "passed"
+            },
+            "line": 66,
+            "name": "Manager is on Point of Sale tab page",
+            "match": {
+              "location": "Search_Steps.manager_is_on_Point_of_Sale_tab_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 110931558,
+              "status": "passed"
+            },
+            "line": 67,
+            "name": "Manager types \"ASD\" in the search box and searches for it",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ASD\"",
+                  "offset": 14
+                }
+              ],
+              "location": "Search_Steps.manager_types_in_the_search_box_and_searches_for_it(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 26773961,
+              "status": "passed"
+            },
+            "line": 68,
+            "name": "Manager sees \"ASD\" in the updated version of the page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ASD\"",
+                  "offset": 13
+                }
+              ],
+              "location": "Search_Steps.manager_sees_in_the_updated_version_of_the_page(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@sapar"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 140059,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setup()"
+            }
+          }
+        ],
+        "line": 73,
+        "name": "\"Search\" functionality Result Verification",
+        "description": "",
+        "id": "point-of-sales-functionality;\"search\"-functionality-result-verification;test-data-for-search-functionality;4",
+        "after": [
+          {
+            "result": {
+              "duration": 209502524,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7796353821,
+              "status": "passed"
+            },
+            "line": 64,
+            "name": "The Manager is on Odoo page",
+            "match": {
+              "location": "Search_Steps.the_Manager_is_on_Odoo_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3077729190,
+              "status": "passed"
+            },
+            "line": 65,
+            "name": "Manager clicks on Point Of Sale tab",
+            "match": {
+              "location": "Search_Steps.manager_clicks_on_Point_Of_Sale_tab()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4763561,
+              "status": "passed"
+            },
+            "line": 66,
+            "name": "Manager is on Point of Sale tab page",
+            "match": {
+              "location": "Search_Steps.manager_is_on_Point_of_Sale_tab_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 137671256,
+              "status": "passed"
+            },
+            "line": 67,
+            "name": "Manager types \"TJ\" in the search box and searches for it",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"TJ\"",
+                  "offset": 14
+                }
+              ],
+              "location": "Search_Steps.manager_types_in_the_search_box_and_searches_for_it(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 27280187,
+              "status": "passed"
+            },
+            "line": 68,
+            "name": "Manager sees \"TJ\" in the updated version of the page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"TJ\"",
+                  "offset": 13
+                }
+              ],
+              "location": "Search_Steps.manager_sees_in_the_updated_version_of_the_page(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@sapar"
           }
         ]
       }

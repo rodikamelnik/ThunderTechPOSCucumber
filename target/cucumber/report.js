@@ -514,4 +514,272 @@ formatter.result({
 formatter.after({
   "status": "passed"
 });
+formatter.scenarioOutline({
+  "name": "\"Search\" functionality Result Verification",
+  "description": "",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "name": "@sapar"
+    }
+  ]
+});
+formatter.step({
+  "name": "The Manager is on Odoo page",
+  "keyword": "When "
+});
+formatter.step({
+  "name": "Manager clicks on Point Of Sale tab",
+  "keyword": "And "
+});
+formatter.step({
+  "name": "Manager is on Point of Sale tab page",
+  "keyword": "Then "
+});
+formatter.step({
+  "name": "Manager types \"\u003csearchInput\u003e\" in the search box and searches for it",
+  "keyword": "When "
+});
+formatter.step({
+  "name": "Manager sees \"\u003csearchResult\u003e\" in the updated version of the page",
+  "keyword": "Then "
+});
+formatter.examples({
+  "name": "Test data for search functionality",
+  "description": "",
+  "keyword": "Examples",
+  "rows": [
+    {
+      "cells": [
+        "searchInput",
+        "searchResult"
+      ]
+    },
+    {
+      "cells": [
+        "Phone Elektrik",
+        "Phone Elektrik"
+      ]
+    },
+    {
+      "cells": [
+        "ASD",
+        "ASD"
+      ]
+    },
+    {
+      "cells": [
+        "TJ",
+        "TJ"
+      ]
+    }
+  ]
+});
+formatter.scenario({
+  "name": "\"Search\" functionality Result Verification",
+  "description": "",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "name": "@smoke"
+    },
+    {
+      "name": "@sapar"
+    }
+  ]
+});
+formatter.before({
+  "status": "passed"
+});
+formatter.step({
+  "name": "The Manager is on Odoo page",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "Search_Steps.the_Manager_is_on_Odoo_page()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Manager clicks on Point Of Sale tab",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "Search_Steps.manager_clicks_on_Point_Of_Sale_tab()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Manager is on Point of Sale tab page",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "Search_Steps.manager_is_on_Point_of_Sale_tab_page()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Manager types \"Phone Elektrik\" in the search box and searches for it",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "Search_Steps.manager_types_in_the_search_box_and_searches_for_it(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Manager sees \"Phone Elektrik\" in the updated version of the page",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "Search_Steps.manager_sees_in_the_updated_version_of_the_page(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.after({
+  "status": "passed"
+});
+formatter.scenario({
+  "name": "\"Search\" functionality Result Verification",
+  "description": "",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "name": "@smoke"
+    },
+    {
+      "name": "@sapar"
+    }
+  ]
+});
+formatter.before({
+  "status": "passed"
+});
+formatter.step({
+  "name": "The Manager is on Odoo page",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "Search_Steps.the_Manager_is_on_Odoo_page()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Manager clicks on Point Of Sale tab",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "Search_Steps.manager_clicks_on_Point_Of_Sale_tab()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Manager is on Point of Sale tab page",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "Search_Steps.manager_is_on_Point_of_Sale_tab_page()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Manager types \"ASD\" in the search box and searches for it",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "Search_Steps.manager_types_in_the_search_box_and_searches_for_it(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Manager sees \"ASD\" in the updated version of the page",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "Search_Steps.manager_sees_in_the_updated_version_of_the_page(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.after({
+  "status": "passed"
+});
+formatter.scenario({
+  "name": "\"Search\" functionality Result Verification",
+  "description": "",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "name": "@smoke"
+    },
+    {
+      "name": "@sapar"
+    }
+  ]
+});
+formatter.before({
+  "status": "passed"
+});
+formatter.step({
+  "name": "The Manager is on Odoo page",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "Search_Steps.the_Manager_is_on_Odoo_page()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Manager clicks on Point Of Sale tab",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "Search_Steps.manager_clicks_on_Point_Of_Sale_tab()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Manager is on Point of Sale tab page",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "Search_Steps.manager_is_on_Point_of_Sale_tab_page()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Manager types \"TJ\" in the search box and searches for it",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "Search_Steps.manager_types_in_the_search_box_and_searches_for_it(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Manager sees \"TJ\" in the updated version of the page",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "Search_Steps.manager_sees_in_the_updated_version_of_the_page(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.after({
+  "status": "passed"
+});
 });
