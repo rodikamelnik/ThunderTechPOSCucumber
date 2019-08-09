@@ -59,6 +59,18 @@ Feature: Point of Sales functionality
     And User clicks on Order Ref button
     Then User should see Action button
 
+  @sapar
+  Scenario Outline: "Search" functionality Result Verification
+    When The Manager is on Odoo page
+    And Manager clicks on Point Of Sale tab
+    Then Manager is on Point of Sale tab page
+    When Manager types "<searchInput>" in the search box and searches for it
+    Then Manager sees "<searchResult>" in the updated version of the page
+    Examples: Test data for search functionality
+      |searchInput   |searchResult   |
+      |Phone Elektrik|Phone Elektrik |
+      |ASD           |ASD            |
+      |TJ            |TJ             |
 
 
 
