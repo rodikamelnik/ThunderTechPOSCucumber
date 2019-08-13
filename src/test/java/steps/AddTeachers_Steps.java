@@ -39,6 +39,9 @@ public class AddTeachers_Steps {
 
     @When("Admin fills out all necessary fields")
     public void admin_fills_out_all_necessary_fields() {
+        addTeachersPage.firstName.sendKeys("Cholpon");
+        addTeachersPage.lastName.sendKeys("Shabolotova");
+        addTeachersPage.emailAddr.sendKeys("cshabolotova@gmail.com");
 
     }
 
