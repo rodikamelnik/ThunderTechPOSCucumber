@@ -59,7 +59,7 @@ Feature: Point of Sales functionality
     And User clicks on Order Ref button
     Then User should see Action button
 
-<<<<<<< HEAD
+
   @sapar
   Scenario Outline: "Search" functionality Result Verification
     When The Manager is on Odoo page
@@ -75,7 +75,7 @@ Feature: Point of Sales functionality
 
 
 
-=======
+
   @mehmet
     Scenario: Manager should be able to see the Bar Chart Reports
     Given Manager is on Odoo page
@@ -85,5 +85,5 @@ Feature: Point of Sales functionality
     Then Manager clicks on Measures tab on top left corner
     And Click on Total price form Measures tab
     Then Click on Total Discount
->>>>>>> b68812cb37c5e2b08f3ef167e4b55fa7bec3fc03
+
 
