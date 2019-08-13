@@ -1,32 +1,24 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("src/test/resources/features/ActionButton.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("src/test/resources/features/Cybertek_Training.feature");
 formatter.feature({
-  "name": "Check Action Button as a manager",
+  "name": "Teachers\u0027 and Students\u0027 Functionalities",
   "description": "",
   "keyword": "Feature",
   "tags": [
     {
-      "name": "@CholponA"
+      "name": "@smoke"
     }
   ]
 });
 formatter.scenario({
-<<<<<<< HEAD
-  "name": "Manager should be able to see the Bar Chart Reports",
-=======
-  "name": "Ability to do some Actions under action button",
->>>>>>> 7d02a8f20c9b75b98a194656b057655beb731bcf
+  "name": "Ability to add teachers",
   "description": "",
   "keyword": "Scenario",
   "tags": [
     {
-<<<<<<< HEAD
       "name": "@smoke"
     },
     {
-      "name": "@mehmet"
-=======
-      "name": "@CholponA"
->>>>>>> 7d02a8f20c9b75b98a194656b057655beb731bcf
+      "name": "@Add_Teachers"
     }
   ]
 });
@@ -34,376 +26,51 @@ formatter.before({
   "status": "passed"
 });
 formatter.step({
-<<<<<<< HEAD
-  "name": "Manager is on Odoo page",
-  "keyword": "Given "
-=======
-  "name": "Manager is on Bright ERP page",
+  "name": "Admin is on School page",
   "keyword": "When "
->>>>>>> 7d02a8f20c9b75b98a194656b057655beb731bcf
 });
 formatter.match({
-  "location": "ActionButton_Steps.manager_is_on_Bright_ERP_page()"
+  "location": "AddTeachers_Steps.admin_is_on_School_page()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "Manager clicks on POS functionality",
+  "name": "Admin clicks on Teachers module",
   "keyword": "And "
 });
 formatter.match({
-  "location": "ActionButton_Steps.manager_clicks_on_POS_functionality()"
+  "location": "AddTeachers_Steps.admin_clicks_on_Teachers_module()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "Manager is on POS page",
-  "keyword": "Then "
+  "name": "Admin chooses Add teachers sub-category",
+  "keyword": "When "
 });
 formatter.match({
-  "location": "ActionButton_Steps.manager_is_on_POS_page()"
+  "location": "AddTeachers_Steps.admin_chooses_Add_teachers_sub_category()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-<<<<<<< HEAD
-  "name": "Manager clicks on Orders tab under Reporting",
+  "name": "Admin fills out all necessary fields",
   "keyword": "And "
 });
 formatter.match({
-  "location": "BarCharReports_Steps.manager_clicks_on_Orders_tab_under_Reporting()"
-=======
-  "name": "Manager clicks on PriceList tab under catalog",
-  "keyword": "When "
-});
-formatter.match({
-  "location": "ActionButton_Steps.manager_clicks_on_PriceList_tab_under_catalog()"
->>>>>>> 7d02a8f20c9b75b98a194656b057655beb731bcf
+  "location": "AddTeachers_Steps.admin_fills_out_all_necessary_fields()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-<<<<<<< HEAD
-  "name": "Manager clicks on Measures tab on top left corner",
+  "name": "Admin clicks on submit button",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "BarCharReports_Steps.manager_clicks_on_Measures_tab_on_top_left_corner()"
-=======
-  "name": "Manager should see list of products",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "ActionButton_Steps.manager_should_see_list_of_products()"
->>>>>>> 7d02a8f20c9b75b98a194656b057655beb731bcf
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-<<<<<<< HEAD
-  "name": "Click on Total price form Measures tab",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "BarCharReports_Steps.click_on_Total_price_form_Measures_tab()"
-=======
-  "name": "Manager clicks on one or multiple product",
-  "keyword": "When "
-});
-formatter.match({
-  "location": "ActionButton_Steps.manager_clicks_on_one_or_multiple_product()"
->>>>>>> 7d02a8f20c9b75b98a194656b057655beb731bcf
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-<<<<<<< HEAD
-  "name": "Click on Total Discount",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "BarCharReports_Steps.click_on_Total_Discount()"
-=======
-  "name": "Manager shoul able to see Export,Archive,Unarchive,Delete",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "ActionButton_Steps.manager_shoul_able_to_see_Export_Archive_Unarchive_Delete()"
->>>>>>> 7d02a8f20c9b75b98a194656b057655beb731bcf
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.after({
-  "status": "passed"
-});
-formatter.scenarioOutline({
-  "name": "\"Search\" functionality Result Verification",
-  "description": "",
-  "keyword": "Scenario Outline",
-  "tags": [
-    {
-      "name": "@sapar"
-    }
-  ]
-});
-formatter.step({
-  "name": "The Manager is on Odoo page",
-  "keyword": "When "
-});
-formatter.step({
-  "name": "Manager clicks on Point Of Sale tab",
-  "keyword": "And "
-});
-formatter.step({
-  "name": "Manager is on Point of Sale tab page",
-  "keyword": "Then "
-});
-formatter.step({
-  "name": "Manager types \"\u003csearchInput\u003e\" in the search box and searches for it",
-  "keyword": "When "
-});
-formatter.step({
-  "name": "Manager sees \"\u003csearchResult\u003e\" in the updated version of the page",
-  "keyword": "Then "
-});
-formatter.examples({
-  "name": "Test data for search functionality",
-  "description": "",
-  "keyword": "Examples",
-  "rows": [
-    {
-      "cells": [
-        "searchInput",
-        "searchResult"
-      ]
-    },
-    {
-      "cells": [
-        "Phone Elektrik",
-        "Phone Elektrik"
-      ]
-    },
-    {
-      "cells": [
-        "ASD",
-        "ASD"
-      ]
-    },
-    {
-      "cells": [
-        "TJ",
-        "TJ"
-      ]
-    }
-  ]
-});
-formatter.scenario({
-  "name": "\"Search\" functionality Result Verification",
-  "description": "",
-  "keyword": "Scenario Outline",
-  "tags": [
-    {
-      "name": "@smoke"
-    },
-    {
-      "name": "@sapar"
-    }
-  ]
-});
-formatter.before({
-  "status": "passed"
-});
-formatter.step({
-  "name": "The Manager is on Odoo page",
-  "keyword": "When "
-});
-formatter.match({
-  "location": "Search_Steps.the_Manager_is_on_Odoo_page()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "Manager clicks on Point Of Sale tab",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "Search_Steps.manager_clicks_on_Point_Of_Sale_tab()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "Manager is on Point of Sale tab page",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "Search_Steps.manager_is_on_Point_of_Sale_tab_page()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "Manager types \"Phone Elektrik\" in the search box and searches for it",
-  "keyword": "When "
-});
-formatter.match({
-  "location": "Search_Steps.manager_types_in_the_search_box_and_searches_for_it(String)"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "Manager sees \"Phone Elektrik\" in the updated version of the page",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "Search_Steps.manager_sees_in_the_updated_version_of_the_page(String)"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.after({
-  "status": "passed"
-});
-formatter.scenario({
-  "name": "\"Search\" functionality Result Verification",
-  "description": "",
-  "keyword": "Scenario Outline",
-  "tags": [
-    {
-      "name": "@smoke"
-    },
-    {
-      "name": "@sapar"
-    }
-  ]
-});
-formatter.before({
-  "status": "passed"
-});
-formatter.step({
-  "name": "The Manager is on Odoo page",
-  "keyword": "When "
-});
-formatter.match({
-  "location": "Search_Steps.the_Manager_is_on_Odoo_page()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "Manager clicks on Point Of Sale tab",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "Search_Steps.manager_clicks_on_Point_Of_Sale_tab()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "Manager is on Point of Sale tab page",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "Search_Steps.manager_is_on_Point_of_Sale_tab_page()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "Manager types \"ASD\" in the search box and searches for it",
-  "keyword": "When "
-});
-formatter.match({
-  "location": "Search_Steps.manager_types_in_the_search_box_and_searches_for_it(String)"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "Manager sees \"ASD\" in the updated version of the page",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "Search_Steps.manager_sees_in_the_updated_version_of_the_page(String)"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.after({
-  "status": "passed"
-});
-formatter.scenario({
-  "name": "\"Search\" functionality Result Verification",
-  "description": "",
-  "keyword": "Scenario Outline",
-  "tags": [
-    {
-      "name": "@smoke"
-    },
-    {
-      "name": "@sapar"
-    }
-  ]
-});
-formatter.before({
-  "status": "passed"
-});
-formatter.step({
-  "name": "The Manager is on Odoo page",
-  "keyword": "When "
-});
-formatter.match({
-  "location": "Search_Steps.the_Manager_is_on_Odoo_page()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "Manager clicks on Point Of Sale tab",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "Search_Steps.manager_clicks_on_Point_Of_Sale_tab()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "Manager is on Point of Sale tab page",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "Search_Steps.manager_is_on_Point_of_Sale_tab_page()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "Manager types \"TJ\" in the search box and searches for it",
-  "keyword": "When "
-});
-formatter.match({
-  "location": "Search_Steps.manager_types_in_the_search_box_and_searches_for_it(String)"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "Manager sees \"TJ\" in the updated version of the page",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "Search_Steps.manager_sees_in_the_updated_version_of_the_page(String)"
+  "location": "AddTeachers_Steps.admin_clicks_on_submit_button()"
 });
 formatter.result({
   "status": "passed"
