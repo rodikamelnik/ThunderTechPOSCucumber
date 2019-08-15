@@ -6,7 +6,11 @@
         "before": [
           {
             "result": {
+<<<<<<< HEAD
               "duration": 11365640,
+=======
+              "duration": 672389,
+>>>>>>> 73f28e08a8fb610f7407b4417d2a8354a544bef8
               "status": "passed"
             },
             "match": {
@@ -15,13 +19,17 @@
           }
         ],
         "line": 5,
-        "name": "Ability to edit certain product",
+        "name": "Ability to add teachers",
         "description": "",
-        "id": "point-of-sales-functionality;ability-to-edit-certain-product",
+        "id": "teachers--and-students--functionalities;ability-to-add-teachers",
         "after": [
           {
             "result": {
+<<<<<<< HEAD
               "duration": 229915671,
+=======
+              "duration": 118954,
+>>>>>>> 73f28e08a8fb610f7407b4417d2a8354a544bef8
               "status": "passed"
             },
             "match": {
@@ -34,36 +42,49 @@
         "steps": [
           {
             "result": {
+<<<<<<< HEAD
               "duration": 13049392226,
+=======
+              "duration": 26014415457,
+>>>>>>> 73f28e08a8fb610f7407b4417d2a8354a544bef8
               "status": "passed"
             },
             "line": 6,
-            "name": "Manager is on Odoo page",
+            "name": "Admin is on School page",
             "match": {
-              "location": "POS_EditProduct_Steps.manager_is_on_Odoo_page()"
+              "location": "AddTeachers_Steps.admin_is_on_School_page()"
             },
             "keyword": "When "
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 2085089319,
+=======
+              "duration": 196039962,
+>>>>>>> 73f28e08a8fb610f7407b4417d2a8354a544bef8
               "status": "passed"
             },
             "line": 7,
-            "name": "Manager clicks on Point of Sale functionality",
+            "name": "Admin clicks on Teachers module",
             "match": {
-              "location": "POS_EditProduct_Steps.manager_clicks_on_Point_of_Sale_functionality()"
+              "location": "AddTeachers_Steps.admin_clicks_on_Teachers_module()"
             },
             "keyword": "And "
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 17973126,
+=======
+              "duration": 657633205,
+>>>>>>> 73f28e08a8fb610f7407b4417d2a8354a544bef8
               "status": "passed"
             },
             "line": 8,
-            "name": "Manager is on Point of Sale page",
+            "name": "Admin chooses Add teachers sub-category",
             "match": {
+<<<<<<< HEAD
               "location": "POS_EditProduct_Steps.manager_is_on_Point_of_Sale_page()"
             },
             "keyword": "Then "
@@ -963,23 +984,35 @@
             "name": "The Manager is on Odoo page",
             "match": {
               "location": "Search_Steps.the_Manager_is_on_Odoo_page()"
+=======
+              "location": "AddTeachers_Steps.admin_chooses_Add_teachers_sub_category()"
+>>>>>>> 73f28e08a8fb610f7407b4417d2a8354a544bef8
             },
             "keyword": "When "
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 3077816414,
               "status": "passed"
             },
             "line": 66,
             "name": "Manager clicks on Point Of Sale tab",
+=======
+              "duration": 297545032,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Admin fills out all necessary fields",
+>>>>>>> 73f28e08a8fb610f7407b4417d2a8354a544bef8
             "match": {
-              "location": "Search_Steps.manager_clicks_on_Point_Of_Sale_tab()"
+              "location": "AddTeachers_Steps.admin_fills_out_all_necessary_fields()"
             },
             "keyword": "And "
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 7032806,
               "status": "passed"
             },
@@ -1015,14 +1048,15 @@
             },
             "line": 69,
             "name": "Manager sees \"TJ\" in the updated version of the page",
+=======
+              "duration": 30009,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Admin clicks on submit button",
+>>>>>>> 73f28e08a8fb610f7407b4417d2a8354a544bef8
             "match": {
-              "arguments": [
-                {
-                  "val": "\"TJ\"",
-                  "offset": 13
-                }
-              ],
-              "location": "Search_Steps.manager_sees_in_the_updated_version_of_the_page(String)"
+              "location": "AddTeachers_Steps.admin_clicks_on_submit_button()"
             },
             "keyword": "Then "
           }
@@ -1032,7 +1066,7 @@
             "name": "@smoke"
           },
           {
-            "name": "@sapar"
+            "name": "@Add_Teachers"
           }
         ]
       },
@@ -1161,11 +1195,11 @@
         ]
       }
     ],
-    "name": "Point of Sales functionality",
+    "name": "Teachers\u0027 and Students\u0027 Functionalities",
     "description": "",
-    "id": "point-of-sales-functionality",
+    "id": "teachers--and-students--functionalities",
     "keyword": "Feature",
-    "uri": "src/test/resources/features/PointOfSales.feature",
+    "uri": "src/test/resources/features/Cybertek_Training.feature",
     "tags": [
       {
         "name": "@smoke",
