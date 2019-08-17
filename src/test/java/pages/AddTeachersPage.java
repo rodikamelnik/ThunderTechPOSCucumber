@@ -33,7 +33,6 @@ public class AddTeachersPage {
 
 
     @FindBy(xpath = "(//div[@class='form-group custom-mt-form-group'])/select")
-    // in case if the above doesn't work: //div[@class='form-group custom-mt-form-group'][5]
     public WebElement gender;
 
 
@@ -47,12 +46,8 @@ public class AddTeachersPage {
     @FindBy(xpath = "(//input[@type='text'])[5]")
     public WebElement lastName;
 
-
-
     @FindBy(xpath = "(//input[@type='text'])[6]")
     public WebElement joiningDate;
-
-
 
     @FindBy(xpath = "(//input[@type='password'])[2]")
     public WebElement confirmPasswd;
@@ -74,6 +69,9 @@ public class AddTeachersPage {
 
     @FindBy(xpath = "//textarea[@id='message']")
     public WebElement permenantAddress;
+
+    @FindBy(xpath = "//button[@type='submit']")
+    public WebElement submitButton;
 
 
 
