@@ -9,6 +9,7 @@ public class AddTeachersPage {
 
 
     public AddTeachersPage(){
+
         PageFactory.initElements(Driver.getDriver(), this);
     }
 
