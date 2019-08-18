@@ -6,21 +6,22 @@ import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import pages.AddStudentPage;
+import pages.StudentsPage;
 import utilities.DBType;
 import utilities.DBUtility;
 import utilities.Driver;
 
+import javax.management.StringValueExp;
 import java.sql.SQLException;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Map;
-import java.util.WeakHashMap;
+import java.util.*;
 
 public class DBCheking_Steps {
 
     AddStudentPage addStudentPage = new AddStudentPage();
-    List<WebElement> listOfStudents = Driver.getDriver().findElements(By.xpath("//div[@class='row staff-grid-row']"));
-    private List<Map<String,Object>> DBStudents;
+    StudentsPage studentsPage = new StudentsPage();
+
+    private Map<String,Object> DBStudents = new HashMap<>();
+    private Map<String,Object> UIStudents = new HashMap<>();
 
     @When("Admin chooses All students sun-category")
     public void admin_chooses_All_students_sun_category() {
@@ -28,47 +29,52 @@ public class DBCheking_Steps {
 
     }
 
-    @When("Admin clicks and types {string} of the student in student id box")
-    public void admin_clicks_and_types_of_the_student_in_student_id_box(String id) {
-        addStudentPage.SearchStudentID.click();
-        addStudentPage.SearchStudentID.sendKeys(id);
+    @When("Admin clicks and types {string} of the student in student name box")
+    public void admin_clicks_and_types_of_the_student_in_student_name_box(String name) {
+        addStudentPage.SearchStudentName.click();
+        addStudentPage.SearchStudentName.sendKeys(name);
 
     }
 
     @When("Admin clicks on search button and clicks on student")
     public void admin_clicks_on_search_button_and_clicks_on_student()throws InterruptedException {
-
         addStudentPage.SearchButton.click();
         Thread.sleep(2000);
         addStudentPage.Student.click();
         Thread.sleep(2000);
-        Assert.assertTrue(addStudentPage.IDStudent.isDisplayed());
+
+        UIStudents.put("STUDENT_ID",studentsPage.StudentId.getText());
+        UIStudents.put("ADMISSION_NO",studentsPage.AddmisionNo.getText());
+
+        UIStudents.put("BIRTH_DATE",studentsPage.BirthDay.getText());
+
+        UIStudents.put("GENDER",studentsPage.Gender.getText());
+        UIStudents.put("JOIN_DATE",studentsPage.JoinDate.getText());
+        UIStudents.put("SUBJECT",studentsPage.Subject.getText());
+        Thread.sleep(2000);
     }
 
-    @When("I query database with sql {string}")
-    public void i_query_database_with_sql(String sql) throws SQLException{
+
+
+    @Then("UI and database must match")
+    public void ui_and_database_must_match()throws SQLException {
         DBUtility.establishConnection(DBType.ORACLE);
-        DBStudents = DBUtility.runSQLquery(sql);
+        List<Map<String,Object>> DBListStudents = DBUtility.runSQLquery("Select STUDENT_ID from student where first_name ='Patricia'");
+        DBStudents = DBListStudents.get(0);
         DBUtility.closeConnections();
 
-    }
+        boolean check = true;
 
-
-
-
-    @Then("UI and database must contain {string}")
-    public void ui_and_database_must_contain(String id) {
-
-        boolean check = false;
-
-        for(Map<String, Object> ids: DBStudents){
-            if(ids.get("STUDENT_ID").equals(id)){
-                check = true;
-            }
+        for(String key: DBStudents.keySet()){
+            System.out.println(String.valueOf(DBStudents.get(key)) + " " +String.valueOf(UIStudents.get(key)));
+            if(!String.valueOf(DBStudents.get(key)).equals(String.valueOf(UIStudents.get(key)))) check=false;
         }
-        Assert.assertTrue(id + "is not in database", check);
 
+        Assert.assertTrue(check);
     }
+
+
+
 
 
 }
