@@ -31,7 +31,7 @@ public class AddStudent_Steps {
     @When("Admin fills out all necessary fields for student")
     public void admin_fills_out_all_necessary_fields_for_student() {
 
-        addStudentPage.firstName.sendKeys("John");
+        addStudentPage.firstName.sendKeys("Patricia");
         addStudentPage.lastName.sendKeys("Snow");
         addStudentPage.email.sendKeys("john.snow@gmail.com");
         addStudentPage.joinDate.sendKeys("02/23/2018");
