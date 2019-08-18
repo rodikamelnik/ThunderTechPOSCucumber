@@ -6,7 +6,11 @@
         "before": [
           {
             "result": {
+<<<<<<< HEAD
               "duration": 1948345,
+=======
+              "duration": 2554527,
+>>>>>>> c3f970bbd5911fbaaca8805f908ccc63a52de0e8
               "status": "passed"
             },
             "match": {
@@ -14,14 +18,23 @@
             }
           }
         ],
+<<<<<<< HEAD
         "line": 32,
         "name": "Checking if student is created in DB",
+=======
+        "line": 5,
+        "name": "Ability to add teachers",
+>>>>>>> c3f970bbd5911fbaaca8805f908ccc63a52de0e8
         "description": "",
-        "id": "teachers--and-students--functionalities;checking-if-student-is-created-in-db;;2",
+        "id": "teachers--and-students--functionalities;ability-to-add-teachers",
         "after": [
           {
             "result": {
+<<<<<<< HEAD
               "duration": 302884,
+=======
+              "duration": 193853,
+>>>>>>> c3f970bbd5911fbaaca8805f908ccc63a52de0e8
               "status": "passed"
             },
             "match": {
@@ -30,6 +43,7 @@
           }
         ],
         "type": "scenario",
+<<<<<<< HEAD
         "keyword": "Scenario Outline",
         "steps": [
           {
@@ -38,6 +52,16 @@
               "status": "passed"
             },
             "line": 24,
+=======
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3301562883,
+              "status": "passed"
+            },
+            "line": 6,
+>>>>>>> c3f970bbd5911fbaaca8805f908ccc63a52de0e8
             "name": "Admin is on School page",
             "match": {
               "location": "AddTeachers_Steps.admin_is_on_School_page()"
@@ -46,6 +70,7 @@
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 215564120,
               "status": "passed"
             },
@@ -53,11 +78,21 @@
             "name": "Admin clicks on Student module",
             "match": {
               "location": "AddStudent_Steps.admin_clicks_on_Student_module()"
+=======
+              "duration": 235150606,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Admin clicks on Teachers module",
+            "match": {
+              "location": "AddTeachers_Steps.admin_clicks_on_Teachers_module()"
+>>>>>>> c3f970bbd5911fbaaca8805f908ccc63a52de0e8
             },
             "keyword": "And "
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 446009678,
               "status": "passed"
             },
@@ -65,11 +100,21 @@
             "name": "Admin chooses All students sun-category",
             "match": {
               "location": "DBCheking_Steps.admin_chooses_All_students_sun_category()"
+=======
+              "duration": 468117180,
+              "status": "passed"
             },
-            "keyword": "And "
+            "line": 8,
+            "name": "Admin chooses Add teachers sub-category",
+            "match": {
+              "location": "AddTeachers_Steps.admin_chooses_Add_teachers_sub_category()"
+>>>>>>> c3f970bbd5911fbaaca8805f908ccc63a52de0e8
+            },
+            "keyword": "When "
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 711405180,
               "status": "passed"
             },
@@ -83,11 +128,21 @@
                 }
               ],
               "location": "DBCheking_Steps.admin_clicks_and_types_of_the_student_in_student_name_box(String)"
+=======
+              "duration": 1678378424,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Admin fills out all necessary fields",
+            "match": {
+              "location": "AddTeachers_Steps.admin_fills_out_all_necessary_fields()"
+>>>>>>> c3f970bbd5911fbaaca8805f908ccc63a52de0e8
             },
             "keyword": "And "
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 6550456152,
               "status": "passed"
             },
@@ -107,6 +162,15 @@
             "name": "UI and database must match",
             "match": {
               "location": "DBCheking_Steps.ui_and_database_must_match()"
+=======
+              "duration": 67756038,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Admin clicks on submit button",
+            "match": {
+              "location": "AddTeachers_Steps.admin_clicks_on_submit_button()"
+>>>>>>> c3f970bbd5911fbaaca8805f908ccc63a52de0e8
             },
             "keyword": "Then "
           }
@@ -116,7 +180,11 @@
             "name": "@smoke"
           },
           {
+<<<<<<< HEAD
             "name": "@Check_StudentDB"
+=======
+            "name": "@Add_Teachers"
+>>>>>>> c3f970bbd5911fbaaca8805f908ccc63a52de0e8
           }
         ]
       }
